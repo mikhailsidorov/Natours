@@ -1,2 +1,2 @@
 # Natours
-ADVANCED CSS AND SASS course by Jonas Schmedtmann.
+Advanced CSS and SASS course by Jonas Schmedtmann.
