@@ -13,9 +13,9 @@ script:
   - npm test
 
 after_success:
-  - npm run build
+  - npm run build:css
 
 deploy:
   provider: heroku
   api_key: $HEROKU_AUTH_TOKEN
-  app: natours
+  app: ntrs
