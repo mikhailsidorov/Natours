@@ -19,3 +19,4 @@ deploy:
   provider: heroku
   api_key: $HEROKU_AUTH_TOKEN
   app: ntrs
+  run: npm run build
