@@ -13,7 +13,7 @@ script:
   - npm test
 
 after_success:
-  - npm run build:css
+  - npm run build
 
 deploy:
   provider: heroku
