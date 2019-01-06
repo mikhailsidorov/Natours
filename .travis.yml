@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-  - "node"
+  - 'node'
 
 cache:
   directories:
-    - "node_modules"
+    - 'node_modules'
 
 install:
   - npm install
@@ -12,11 +12,7 @@ install:
 script:
   - npm test
 
-after_success:
-  - npm run build
-
 deploy:
   provider: heroku
   api_key: $HEROKU_AUTH_TOKEN
   app: ntrs
-  run: npm run build
