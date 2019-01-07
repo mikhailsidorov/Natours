@@ -8,6 +8,5 @@ https://ntrs.herokuapp.com/
 
 ```
 npm install
-npm build
 npm start
 ```
